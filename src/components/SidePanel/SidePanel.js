@@ -1,9 +1,8 @@
 import React from 'react';
-import './SidePanel.css';
-import { Link } from 'react-router-dom';
+import styles from './SidePanel.module.css';
 
 const SidePanel = (props) => (
-    <div className="Panel">
+    <div className={styles.Panel}>
         <h1>Navigation</h1>
         <p>Home</p>
         <p>New Entry</p>

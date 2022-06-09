@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.Header-container {
+.Header_container {
     min-height: 15vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     font-size: 18px;
 }
 
-.Header-logo {
+.Header_logo {
 width: auto;
 height: 10vmin;
 pointer-events: none;

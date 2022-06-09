@@ -1,14 +1,12 @@
 import React from 'react';
-import './Header.css';
-import logo from './../logo.png';
-import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
 
 const Header = (props) => (
-    <div className="Header">
-        <div className="Header-container">
+    <div className={styles.Header}>
+        <div className={styles.Header_container}>
             
             <div>
-                <img src={logo} className="Header-logo" alt="logo" />
+                <img src={'/logo.png'} className={styles.Header_logo} alt="logo" />
             </div>
             {/*<div className="right">
                 <Link to="/account"><i class="fas fa-solid fa-ellipsis-vertical"></i></Link>

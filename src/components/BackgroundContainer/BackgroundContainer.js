@@ -1,8 +1,8 @@
 import React from 'react';
-import './BackgroundContainer.css';
+import styles from './BackgroundContainer.module.css';
 
 const BackgroundContainer = (props) => (
-    <div className="BackgroundContainer">
+    <div className={styles.BackgroundContainer}>
         {props.children}
     </div>
 );
