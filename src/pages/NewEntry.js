@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Header from './../components/Header.js';
-import SidePanel from './../components/SidePanel.js';
+import Header from '../components/Header/Header';
+import SidePanel from '../components/SidePanel/SidePanel';
 import BackgroundContainer from '../components/BackgroundContainer/BackgroundContainer';
 
 const NewEntry = () => {
