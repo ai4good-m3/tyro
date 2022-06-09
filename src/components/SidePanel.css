@@ -1,0 +1,23 @@
+.Panel {
+    background-color: #005C4F;
+    width: 15vw;
+    height: 70vh;
+    margin: 0px 50px 10px;
+    flex: 1;
+    border-radius: 20px;
+
+}
+h1 {
+    font: arial;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+p {
+    font: arial;
+    font-size: 15px;
+    padding-left: 25px;
+    color: white;
+}
