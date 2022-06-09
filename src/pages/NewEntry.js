@@ -9,7 +9,6 @@ const NewEntry = () => {
     <div>
       <BackgroundContainer>
         <Header/>
-        <SidePanel />
         <p>New Entry</p>    
       </BackgroundContainer>
     </div>
