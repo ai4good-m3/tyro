@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header/Header';
 import SidePanel from '../components/SidePanel/SidePanel';
 import BackgroundContainer from '../components/BackgroundContainer/BackgroundContainer';
+import Calendar from 'react-calendar';
 
 const NewEntry = () => {
   return (
@@ -10,7 +11,7 @@ const NewEntry = () => {
       <BackgroundContainer>
         <Header/>
         <SidePanel />
-        <p>New Entry</p>    
+        <Calendar />
       </BackgroundContainer>
     </div>
     

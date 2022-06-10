@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <BackgroundContainer>
         <Header />
-        <SidePanel />  
+        <SidePanel /> 
       </BackgroundContainer>    
     </div>
     

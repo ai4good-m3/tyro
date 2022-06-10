@@ -15,22 +15,25 @@
 .right {
     flex: 1;
     text-align: right;
-}
-
-.fas {
     margin-left: 16px;
     font-size: 18px;
+    color: black;
 }
 
 .Header_logo {
 width: auto;
-height: 10vmin;
+height: 15vmin;
 pointer-events: none;
+margin: 3vh;
 }
 
-.Header-link {
-color: #61dafb;
+
+.Panel a {
+    display: block;
 }
 
+.Panel a:link {
+    text-decoration: None;
+}
   
   

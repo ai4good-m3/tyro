@@ -15,9 +15,37 @@
     padding: 5px;
 }
 
-.Panel p {
+.Panel a {
     font: arial;
     font-size: 15px;
-    padding-left: 25px;
+    padding-left: 15px;
     color: white;
 }
+
+.Panel a:link {
+    text-decoration: None;
+}
+
+.Panel a:visited {
+    text-decoration: None;
+}
+
+.Panel a:hover {
+    text-decoration: None;
+    color: #EEE8A9;
+}
+
+.Panel a:active {
+    width: 10px;
+    color: #EEE8A9;
+}
+
+.Panel ul {
+    list-style-type: None;
+    margin: 100px 0px 0px;
+}
+
+.Panel li a {
+    display: block;
+    margin: 30px 0px;
+  }
